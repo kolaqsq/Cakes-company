@@ -33,4 +33,4 @@ services:
 
 networks:
   project:
-    name: td-network
+    name: cc-network

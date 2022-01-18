@@ -3,28 +3,10 @@ src/.env
 _scraps
 dump/dumpus
 
-src/traveler_dream/static
-src/traveler_dream/media
-src/traveler_dream/media/avatars/*
-!/src/traveler_dream/media/avatars/look.png
-!/src/traveler_dream/media/avatars/Фото_Иванов.jpg
-!/src/traveler_dream/media/avatars/Фото_Константинов.jpg
-!/src/traveler_dream/media/avatars/Фото_Сидоров.jpg
-!/src/traveler_dream/media/avatars/Фото_Федорова.jpg
+src/cakes_company/static
+src/cakes_company/media
 
 src/static
 
-src/stuff/migrations/*.py
-!src/stuff/migrations/__init__.py
-
-src/clients/migrations/*.py
-!src/clients/migrations/__init__.py
-
-src/hotels/migrations/*.py
-!src/hotels/migrations/__init__.py
-
-src/business/migrations/*.py
-!src/business/migrations/__init__.py
-
-src/notifications/migrations/*.py
-!src/notifications/migrations/__init__.py
+src/userinfo/migrations/*.py
+!src/userinfo/migrations/__init__.py

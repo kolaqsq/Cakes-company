@@ -14,4 +14,3 @@ django-ordered-model
 # django-autocomplete-light
 # django-admin-thumbnails
 python-decouple
-zeep
