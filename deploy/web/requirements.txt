@@ -1,0 +1,17 @@
+Django
+Pillow
+mysqlclient
+django-mysql
+# django-grappelli
+# django-ckeditor
+# django-hashid-field
+django-nested-admin
+django-admin-interface
+django-tabbed-admin
+sorl-thumbnail
+django-phonenumber-field[phonenumbers]
+django-ordered-model
+# django-autocomplete-light
+# django-admin-thumbnails
+python-decouple
+zeep
