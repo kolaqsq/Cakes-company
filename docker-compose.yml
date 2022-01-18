@@ -1,11 +1,11 @@
 version: '3'
 services:
   web:
-    container_name: td-web
+    container_name: cc-web
     build:
       context: .
       dockerfile: deploy/web/Dockerfile
-#    command: tail -F anything
+    #    command: tail -F anything
     command: python manage.py runserver 0.0.0.0:8000
     volumes:
       - ./src:/code
@@ -17,7 +17,7 @@ services:
       - db
 
   db:
-    container_name: td-db
+    container_name: cc-db
     image: mysql
     command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --default-authentication-plugin=mysql_native_password --slow_query_log=1 --log_output=TABLE --long-query-time=1
     environment:
