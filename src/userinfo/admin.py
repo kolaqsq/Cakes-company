@@ -13,7 +13,7 @@ class UserInfoInline(admin.StackedInline):
 
 class UserAdmin(BaseUserAdmin):
     inlines = (UserInfoInline,)
-    list_display = ('username', 'first_name', 'is_active')
+    list_display = ('username', 'first_name', 'is_active',)
     list_filter = ('groups',)
     autocomplete_fields = ('groups',)
 
