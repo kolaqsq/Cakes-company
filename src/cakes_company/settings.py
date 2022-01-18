@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'userinfo.apps.UserinfoConfig',
+    'main.apps.MainInfo',
 
     'admin_interface',
     'colorfield',

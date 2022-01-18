@@ -1,0 +1,2 @@
+insert into dev.auth_user (id, password, last_login, is_superuser, username, first_name, last_name, email, is_staff, is_active, date_joined)
+values  (1, 'pbkdf2_sha256$320000$UHn7g0qpyYuMNV41nj2xmu$lk39CHXHt+yEl3e6MDXBYe37CrSvIV/OtqUL8hUqdYg=', null, 1, 'root', '', '', '', 1, 1, '2022-01-18 13:30:51.933039');

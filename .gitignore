@@ -10,3 +10,6 @@ src/static
 
 src/userinfo/migrations/*.py
 !src/userinfo/migrations/__init__.py
+
+src/main/migrations/*.py
+!src/main/migrations/__init__.py
